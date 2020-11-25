@@ -1,5 +1,4 @@
 ![League of Legends logo](../images/logo.png)
-<img src =" ../image/logo.png" width = "48">
 
 
 **This directory contains the analysis of the data set. This is a solo project so there is only only the analysis of one person**
