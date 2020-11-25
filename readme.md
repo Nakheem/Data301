@@ -1,8 +1,9 @@
 ![League of Legends logo](images/logo.png)
 
-
-    The data in this dataset is provided by **Riot Games**. It focuses on the popular PC game League of Legends, commonly referred to as just “League”.
-In 2020 the game had 115 million registered players from around the world and the company made around 3 billion dollars using a free to play model. 
+    *This is a solo research project *
+   
+  *The data in this dataset is provided by **Riot Games**.* 
+ It focuses on the popular PC game League of Legends, commonly referred to as just “League”. In 2020 the game had 115 million registered players from around the world and the company made around 3 billion dollars using a free to play model. 
 The data in the dataset is various statistic from ranked games of League of Legends.  Specifically, this data set focuses on the ranked games of the top 1% of League of Legends players.  
 The data was collected using the Riot Api, it was collected April 2020. Riot games releases all the stats on their games to the public. It can be accessed directly thorough riot games or 
 through many third-party companies or websites, such as mobalityics or proguides.The purpose of this dataset is to see how skilled player win their games. Games played at this higher level 
@@ -15,6 +16,8 @@ focus on. I am also curious about the towers taken because if this stat is too h
 which is minimum amount need to end a game.  
 
 <h1>Research questions</h1>
-* What matters more wards or kills
-* Does taking towers effect the game
-* 
+
+- What matters more wards or kills
+- Does taking towers effect the game
+- How much does a gold difference this early in the game make
+
