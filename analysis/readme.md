@@ -1,4 +1,4 @@
-![League of Legends logo](../images/logo.jpg)
+![League of Legends logo](../images/logo.jpg|250x250)
 This directory contains the analysis of the data set. This is a solo project so there is only only the analysis of one person
 
 
@@ -9,7 +9,7 @@ This directory contains the analysis of the data set. This is a solo project so 
 - Decided to keep the losing team data, and just rename the entire table. So I split the data interms of red or blue winning and reframed the data with winner being the primary data 
   and the loser being secondary
 
-<h1> EDA <h1>
+<h1> EDA </h1>
 - After doing EDA realised I should make use of count functions to get precentages of likelyhood of winining
 - Also realsed doublesided bar graphs would be usefull
 - Trying a heat map 

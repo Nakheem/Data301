@@ -1,4 +1,4 @@
-![images/logo.jpg]
+![League of Legends Logo](images/logo.jpg
 
 
     The data in this dataset is provided by **Riot Games**. It focuses on the popular PC game League of Legends, commonly referred to as just “League”.
