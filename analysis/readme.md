@@ -1,4 +1,4 @@
-![../images/logo.jpg]
+![League of Legends logo](../images/logo.jpg)
 This directory contains the analysis of the data set. This is a solo project so there is only only the analysis of one person
 
 
