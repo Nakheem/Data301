@@ -14,4 +14,3 @@
 
 - After doing EDA realised I should make use of count functions to get precentages of likelyhood of winining
 - Also realsed doublesided bar graphs would be usefull
-- Trying a heat map 
