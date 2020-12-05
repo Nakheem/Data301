@@ -1,0 +1,2655 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20202.20.0525.1210                               -->
+<workbook original-version='18.1' source-build='2020.2.1 (20202.20.0525.1210)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <_.fcp.SetMembershipControl.true...SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='data_byNakheem' inline='true' name='federated.1hc4ekx0bv111n1aplt4q1pm6xls' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='data_byNakheem' name='textscan.1tr6aoc1r7bxob1ap04b51hb1lng'>
+            <connection class='textscan' directory='C:/Users/NakNak/GitHub/Data301/data/processed' filename='data_byNakheem.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1tr6aoc1r7bxob1ap04b51hb1lng' name='data_byNakheem.csv' table='[data_byNakheem#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='gameId' ordinal='1' />
+            <column datatype='integer' name='blueWins' ordinal='2' />
+            <column datatype='integer' name='wardsPlaced' ordinal='3' />
+            <column datatype='integer' name='wardsDestroyed' ordinal='4' />
+            <column datatype='integer' name='firstBlood' ordinal='5' />
+            <column datatype='integer' name='kills' ordinal='6' />
+            <column datatype='integer' name='deaths' ordinal='7' />
+            <column datatype='integer' name='assists' ordinal='8' />
+            <column datatype='integer' name='eliteMonsters' ordinal='9' />
+            <column datatype='integer' name='dragonsTaken' ordinal='10' />
+            <column datatype='integer' name='heraldsTaken' ordinal='11' />
+            <column datatype='integer' name='towersLost' ordinal='12' />
+            <column datatype='integer' name='totalGold' ordinal='13' />
+            <column datatype='real' name='avgLevel' ordinal='14' />
+            <column datatype='integer' name='totalExperience' ordinal='15' />
+            <column datatype='integer' name='totalMinionsKilled' ordinal='16' />
+            <column datatype='integer' name='totalJungleMinionsKilled' ordinal='17' />
+            <column datatype='integer' name='goldDiff' ordinal='18' />
+            <column datatype='integer' name='experienceDiff' ordinal='19' />
+            <column datatype='real' name='csPerMin' ordinal='20' />
+            <column datatype='real' name='goldPerMin' ordinal='21' />
+            <column datatype='integer' name='losingTeamWardsPlaced' ordinal='22' />
+            <column datatype='integer' name='losingTeamWardsDestroyed' ordinal='23' />
+            <column datatype='integer' name='losingTeamFirstBlood' ordinal='24' />
+            <column datatype='integer' name='losingteamKills' ordinal='25' />
+            <column datatype='integer' name='losingTeamDeaths' ordinal='26' />
+            <column datatype='integer' name='losingTeamAssits' ordinal='27' />
+            <column datatype='integer' name='losingTeamEliteMonsters' ordinal='28' />
+            <column datatype='integer' name='losingTeamDragons' ordinal='29' />
+            <column datatype='integer' name='losingTeamHeralds' ordinal='30' />
+            <column datatype='integer' name='losingTeamTowersDestroyed' ordinal='31' />
+            <column datatype='integer' name='losingTeamTotalGold' ordinal='32' />
+            <column datatype='real' name='losingTeamAvgLevel' ordinal='33' />
+            <column datatype='integer' name='losingTeamTotalExperience' ordinal='34' />
+            <column datatype='integer' name='losingTeamTotalMinionsKilled' ordinal='35' />
+            <column datatype='integer' name='losingTeamTotalJungleMinionsKilled' ordinal='36' />
+            <column datatype='integer' name='losingTeamGoldDiff' ordinal='37' />
+            <column datatype='integer' name='losingTeamExperienceDiff' ordinal='38' />
+            <column datatype='real' name='losingTeamCSPerMin' ordinal='39' />
+            <column datatype='real' name='losingTeamGoldPerMin' ordinal='40' />
+            <column datatype='string' name='teamWon' ordinal='41' />
+            <column datatype='integer' name='totalWards' ordinal='42' />
+            <column datatype='boolean' name='winingTeamFirstBlood' ordinal='43' />
+            <column datatype='boolean' name='winingTeamDragon' ordinal='44' />
+            <column datatype='boolean' name='aheadByGold' ordinal='45' />
+            <column datatype='integer' name='killDifferenceW' ordinal='46' />
+            <column datatype='integer' name='KillDifferencL' ordinal='47' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1tr6aoc1r7bxob1ap04b51hb1lng' name='data_byNakheem.csv' table='[data_byNakheem#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='gameId' ordinal='1' />
+            <column datatype='integer' name='blueWins' ordinal='2' />
+            <column datatype='integer' name='wardsPlaced' ordinal='3' />
+            <column datatype='integer' name='wardsDestroyed' ordinal='4' />
+            <column datatype='integer' name='firstBlood' ordinal='5' />
+            <column datatype='integer' name='kills' ordinal='6' />
+            <column datatype='integer' name='deaths' ordinal='7' />
+            <column datatype='integer' name='assists' ordinal='8' />
+            <column datatype='integer' name='eliteMonsters' ordinal='9' />
+            <column datatype='integer' name='dragonsTaken' ordinal='10' />
+            <column datatype='integer' name='heraldsTaken' ordinal='11' />
+            <column datatype='integer' name='towersLost' ordinal='12' />
+            <column datatype='integer' name='totalGold' ordinal='13' />
+            <column datatype='real' name='avgLevel' ordinal='14' />
+            <column datatype='integer' name='totalExperience' ordinal='15' />
+            <column datatype='integer' name='totalMinionsKilled' ordinal='16' />
+            <column datatype='integer' name='totalJungleMinionsKilled' ordinal='17' />
+            <column datatype='integer' name='goldDiff' ordinal='18' />
+            <column datatype='integer' name='experienceDiff' ordinal='19' />
+            <column datatype='real' name='csPerMin' ordinal='20' />
+            <column datatype='real' name='goldPerMin' ordinal='21' />
+            <column datatype='integer' name='losingTeamWardsPlaced' ordinal='22' />
+            <column datatype='integer' name='losingTeamWardsDestroyed' ordinal='23' />
+            <column datatype='integer' name='losingTeamFirstBlood' ordinal='24' />
+            <column datatype='integer' name='losingteamKills' ordinal='25' />
+            <column datatype='integer' name='losingTeamDeaths' ordinal='26' />
+            <column datatype='integer' name='losingTeamAssits' ordinal='27' />
+            <column datatype='integer' name='losingTeamEliteMonsters' ordinal='28' />
+            <column datatype='integer' name='losingTeamDragons' ordinal='29' />
+            <column datatype='integer' name='losingTeamHeralds' ordinal='30' />
+            <column datatype='integer' name='losingTeamTowersDestroyed' ordinal='31' />
+            <column datatype='integer' name='losingTeamTotalGold' ordinal='32' />
+            <column datatype='real' name='losingTeamAvgLevel' ordinal='33' />
+            <column datatype='integer' name='losingTeamTotalExperience' ordinal='34' />
+            <column datatype='integer' name='losingTeamTotalMinionsKilled' ordinal='35' />
+            <column datatype='integer' name='losingTeamTotalJungleMinionsKilled' ordinal='36' />
+            <column datatype='integer' name='losingTeamGoldDiff' ordinal='37' />
+            <column datatype='integer' name='losingTeamExperienceDiff' ordinal='38' />
+            <column datatype='real' name='losingTeamCSPerMin' ordinal='39' />
+            <column datatype='real' name='losingTeamGoldPerMin' ordinal='40' />
+            <column datatype='string' name='teamWon' ordinal='41' />
+            <column datatype='integer' name='totalWards' ordinal='42' />
+            <column datatype='boolean' name='winingTeamFirstBlood' ordinal='43' />
+            <column datatype='boolean' name='winingTeamDragon' ordinal='44' />
+            <column datatype='boolean' name='aheadByGold' ordinal='45' />
+            <column datatype='integer' name='killDifferenceW' ordinal='46' />
+            <column datatype='integer' name='KillDifferencL' ordinal='47' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[data_byNakheem.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[data_byNakheem.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_byNakheem.csv_E32E207985DE47848775F761AF74136F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gameId</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[gameId]</local-name>
+            <parent-name>[data_byNakheem.csv]</parent-name>
+            <remote-alias>gameId</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_byNakheem.csv_E32E207985DE47848775F761AF74136F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>blueWins</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[blueWins]</local-name>
+            <parent-name>[data_byNakheem.csv]</parent-name>
+            <remote-alias>blueWins</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_byNakheem.csv_E32E207985DE47848775F761AF74136F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>wardsPlaced</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[wardsPlaced]</local-name>
+            <parent-name>[data_byNakheem.csv]</parent-name>
+            <remote-alias>wardsPlaced</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_byNakheem.csv_E32E207985DE47848775F761AF74136F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>wardsDestroyed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[wardsDestroyed]</local-name>
+            <parent-name>[data_byNakheem.csv]</parent-name>
+            <remote-alias>wardsDestroyed</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_byNakheem.csv_E32E207985DE47848775F761AF74136F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>firstBlood</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[firstBlood]</local-name>
+            <parent-name>[data_byNakheem.csv]</parent-name>
+            <remote-alias>firstBlood</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_byNakheem.csv_E32E207985DE47848775F761AF74136F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>kills</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[kills]</local-name>
+            <parent-name>[data_byNakheem.csv]</parent-name>
+            <remote-alias>kills</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_byNakheem.csv_E32E207985DE47848775F761AF74136F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>deaths</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[deaths]</local-name>
+            <parent-name>[data_byNakheem.csv]</parent-name>
+            <remote-alias>deaths</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_byNakheem.csv_E32E207985DE47848775F761AF74136F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>assists</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[assists]</local-name>
+            <parent-name>[data_byNakheem.csv]</parent-name>
+            <remote-alias>assists</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_byNakheem.csv_E32E207985DE47848775F761AF74136F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>eliteMonsters</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[eliteMonsters]</local-name>
+            <parent-name>[data_byNakheem.csv]</parent-name>
+            <remote-alias>eliteMonsters</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_byNakheem.csv_E32E207985DE47848775F761AF74136F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dragonsTaken</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[dragonsTaken]</local-name>
+            <parent-name>[data_byNakheem.csv]</parent-name>
+            <remote-alias>dragonsTaken</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_byNakheem.csv_E32E207985DE47848775F761AF74136F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>heraldsTaken</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[heraldsTaken]</local-name>
+            <parent-name>[data_byNakheem.csv]</parent-name>
+            <remote-alias>heraldsTaken</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_byNakheem.csv_E32E207985DE47848775F761AF74136F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>towersLost</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[towersLost]</local-name>
+            <parent-name>[data_byNakheem.csv]</parent-name>
+            <remote-alias>towersLost</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_byNakheem.csv_E32E207985DE47848775F761AF74136F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>totalGold</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[totalGold]</local-name>
+            <parent-name>[data_byNakheem.csv]</parent-name>
+            <remote-alias>totalGold</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_byNakheem.csv_E32E207985DE47848775F761AF74136F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>avgLevel</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[avgLevel]</local-name>
+            <parent-name>[data_byNakheem.csv]</parent-name>
+            <remote-alias>avgLevel</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_byNakheem.csv_E32E207985DE47848775F761AF74136F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>totalExperience</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[totalExperience]</local-name>
+            <parent-name>[data_byNakheem.csv]</parent-name>
+            <remote-alias>totalExperience</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_byNakheem.csv_E32E207985DE47848775F761AF74136F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>totalMinionsKilled</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[totalMinionsKilled]</local-name>
+            <parent-name>[data_byNakheem.csv]</parent-name>
+            <remote-alias>totalMinionsKilled</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_byNakheem.csv_E32E207985DE47848775F761AF74136F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>totalJungleMinionsKilled</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[totalJungleMinionsKilled]</local-name>
+            <parent-name>[data_byNakheem.csv]</parent-name>
+            <remote-alias>totalJungleMinionsKilled</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_byNakheem.csv_E32E207985DE47848775F761AF74136F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>goldDiff</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[goldDiff]</local-name>
+            <parent-name>[data_byNakheem.csv]</parent-name>
+            <remote-alias>goldDiff</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_byNakheem.csv_E32E207985DE47848775F761AF74136F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>experienceDiff</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[experienceDiff]</local-name>
+            <parent-name>[data_byNakheem.csv]</parent-name>
+            <remote-alias>experienceDiff</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_byNakheem.csv_E32E207985DE47848775F761AF74136F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>csPerMin</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[csPerMin]</local-name>
+            <parent-name>[data_byNakheem.csv]</parent-name>
+            <remote-alias>csPerMin</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_byNakheem.csv_E32E207985DE47848775F761AF74136F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>goldPerMin</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[goldPerMin]</local-name>
+            <parent-name>[data_byNakheem.csv]</parent-name>
+            <remote-alias>goldPerMin</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_byNakheem.csv_E32E207985DE47848775F761AF74136F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>losingTeamWardsPlaced</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[losingTeamWardsPlaced]</local-name>
+            <parent-name>[data_byNakheem.csv]</parent-name>
+            <remote-alias>losingTeamWardsPlaced</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_byNakheem.csv_E32E207985DE47848775F761AF74136F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>losingTeamWardsDestroyed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[losingTeamWardsDestroyed]</local-name>
+            <parent-name>[data_byNakheem.csv]</parent-name>
+            <remote-alias>losingTeamWardsDestroyed</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_byNakheem.csv_E32E207985DE47848775F761AF74136F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>losingTeamFirstBlood</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[losingTeamFirstBlood]</local-name>
+            <parent-name>[data_byNakheem.csv]</parent-name>
+            <remote-alias>losingTeamFirstBlood</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_byNakheem.csv_E32E207985DE47848775F761AF74136F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>losingteamKills</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[losingteamKills]</local-name>
+            <parent-name>[data_byNakheem.csv]</parent-name>
+            <remote-alias>losingteamKills</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_byNakheem.csv_E32E207985DE47848775F761AF74136F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>losingTeamDeaths</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[losingTeamDeaths]</local-name>
+            <parent-name>[data_byNakheem.csv]</parent-name>
+            <remote-alias>losingTeamDeaths</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_byNakheem.csv_E32E207985DE47848775F761AF74136F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>losingTeamAssits</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[losingTeamAssits]</local-name>
+            <parent-name>[data_byNakheem.csv]</parent-name>
+            <remote-alias>losingTeamAssits</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_byNakheem.csv_E32E207985DE47848775F761AF74136F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>losingTeamEliteMonsters</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[losingTeamEliteMonsters]</local-name>
+            <parent-name>[data_byNakheem.csv]</parent-name>
+            <remote-alias>losingTeamEliteMonsters</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_byNakheem.csv_E32E207985DE47848775F761AF74136F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>losingTeamDragons</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[losingTeamDragons]</local-name>
+            <parent-name>[data_byNakheem.csv]</parent-name>
+            <remote-alias>losingTeamDragons</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_byNakheem.csv_E32E207985DE47848775F761AF74136F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>losingTeamHeralds</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[losingTeamHeralds]</local-name>
+            <parent-name>[data_byNakheem.csv]</parent-name>
+            <remote-alias>losingTeamHeralds</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_byNakheem.csv_E32E207985DE47848775F761AF74136F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>losingTeamTowersDestroyed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[losingTeamTowersDestroyed]</local-name>
+            <parent-name>[data_byNakheem.csv]</parent-name>
+            <remote-alias>losingTeamTowersDestroyed</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_byNakheem.csv_E32E207985DE47848775F761AF74136F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>losingTeamTotalGold</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[losingTeamTotalGold]</local-name>
+            <parent-name>[data_byNakheem.csv]</parent-name>
+            <remote-alias>losingTeamTotalGold</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_byNakheem.csv_E32E207985DE47848775F761AF74136F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>losingTeamAvgLevel</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[losingTeamAvgLevel]</local-name>
+            <parent-name>[data_byNakheem.csv]</parent-name>
+            <remote-alias>losingTeamAvgLevel</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_byNakheem.csv_E32E207985DE47848775F761AF74136F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>losingTeamTotalExperience</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[losingTeamTotalExperience]</local-name>
+            <parent-name>[data_byNakheem.csv]</parent-name>
+            <remote-alias>losingTeamTotalExperience</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_byNakheem.csv_E32E207985DE47848775F761AF74136F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>losingTeamTotalMinionsKilled</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[losingTeamTotalMinionsKilled]</local-name>
+            <parent-name>[data_byNakheem.csv]</parent-name>
+            <remote-alias>losingTeamTotalMinionsKilled</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_byNakheem.csv_E32E207985DE47848775F761AF74136F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>losingTeamTotalJungleMinionsKilled</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[losingTeamTotalJungleMinionsKilled]</local-name>
+            <parent-name>[data_byNakheem.csv]</parent-name>
+            <remote-alias>losingTeamTotalJungleMinionsKilled</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_byNakheem.csv_E32E207985DE47848775F761AF74136F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>losingTeamGoldDiff</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[losingTeamGoldDiff]</local-name>
+            <parent-name>[data_byNakheem.csv]</parent-name>
+            <remote-alias>losingTeamGoldDiff</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_byNakheem.csv_E32E207985DE47848775F761AF74136F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>losingTeamExperienceDiff</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[losingTeamExperienceDiff]</local-name>
+            <parent-name>[data_byNakheem.csv]</parent-name>
+            <remote-alias>losingTeamExperienceDiff</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_byNakheem.csv_E32E207985DE47848775F761AF74136F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>losingTeamCSPerMin</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[losingTeamCSPerMin]</local-name>
+            <parent-name>[data_byNakheem.csv]</parent-name>
+            <remote-alias>losingTeamCSPerMin</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_byNakheem.csv_E32E207985DE47848775F761AF74136F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>losingTeamGoldPerMin</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[losingTeamGoldPerMin]</local-name>
+            <parent-name>[data_byNakheem.csv]</parent-name>
+            <remote-alias>losingTeamGoldPerMin</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_byNakheem.csv_E32E207985DE47848775F761AF74136F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamWon</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[teamWon]</local-name>
+            <parent-name>[data_byNakheem.csv]</parent-name>
+            <remote-alias>teamWon</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_byNakheem.csv_E32E207985DE47848775F761AF74136F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>totalWards</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[totalWards]</local-name>
+            <parent-name>[data_byNakheem.csv]</parent-name>
+            <remote-alias>totalWards</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_byNakheem.csv_E32E207985DE47848775F761AF74136F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>winingTeamFirstBlood</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[winingTeamFirstBlood]</local-name>
+            <parent-name>[data_byNakheem.csv]</parent-name>
+            <remote-alias>winingTeamFirstBlood</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_byNakheem.csv_E32E207985DE47848775F761AF74136F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>winingTeamDragon</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[winingTeamDragon]</local-name>
+            <parent-name>[data_byNakheem.csv]</parent-name>
+            <remote-alias>winingTeamDragon</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_byNakheem.csv_E32E207985DE47848775F761AF74136F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>aheadByGold</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[aheadByGold]</local-name>
+            <parent-name>[data_byNakheem.csv]</parent-name>
+            <remote-alias>aheadByGold</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_byNakheem.csv_E32E207985DE47848775F761AF74136F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>killDifferenceW</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[killDifferenceW]</local-name>
+            <parent-name>[data_byNakheem.csv]</parent-name>
+            <remote-alias>killDifferenceW</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_byNakheem.csv_E32E207985DE47848775F761AF74136F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>KillDifferencL</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[KillDifferencL]</local-name>
+            <parent-name>[data_byNakheem.csv]</parent-name>
+            <remote-alias>KillDifferencL</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_byNakheem.csv_E32E207985DE47848775F761AF74136F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[:Measure Names]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[avg:assists:qk]&quot;' value='Wining Team Assists' />
+          <alias key='&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[avg:deaths:qk]&quot;' value='Wining Team Deaths' />
+          <alias key='&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[avg:kills:qk]&quot;' value='Winning Team Kills' />
+          <alias key='&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[avg:losingTeamAssits:qk]&quot;' value='Losing Team Assits' />
+          <alias key='&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[avg:losingTeamDeaths:qk]&quot;' value='Losing Team Deaths' />
+          <alias key='&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[avg:losingteamKills:qk]&quot;' value='Losing Team Kills' />
+        </aliases>
+      </column>
+      <column datatype='string' name='[Kills (group)]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[kills]' default='&quot;Other&quot;' new-bin='true'>
+          <bin default-name='true' value='&quot;15&quot;'>
+            <value>15</value>
+          </bin>
+        </calculation>
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='data_byNakheem.csv' datatype='table' name='[__tableau_internal_object_id__].[data_byNakheem.csv_E32E207985DE47848775F761AF74136F]' role='measure' type='quantitative' />
+      <column caption='Assists' datatype='integer' name='[assists]' role='measure' type='quantitative' />
+      <column caption='Avg Level' datatype='real' name='[avgLevel]' role='measure' type='quantitative' />
+      <column caption='Blue Wins' datatype='integer' name='[blueWins]' role='measure' type='quantitative' />
+      <column caption='Cs Per Min' datatype='real' name='[csPerMin]' role='measure' type='quantitative' />
+      <column caption='Deaths' datatype='integer' name='[deaths]' role='measure' type='quantitative' />
+      <column caption='Dragons Taken' datatype='integer' name='[dragonsTaken]' role='measure' type='quantitative' />
+      <column caption='Elite Monsters' datatype='integer' name='[eliteMonsters]' role='measure' type='quantitative' />
+      <column caption='Experience Diff' datatype='integer' name='[experienceDiff]' role='measure' type='quantitative' />
+      <column caption='First Blood' datatype='integer' name='[firstBlood]' role='measure' type='quantitative' />
+      <column caption='Game Id' datatype='integer' name='[gameId]' role='dimension' type='ordinal' />
+      <column caption='Gold Diff' datatype='integer' name='[goldDiff]' role='measure' type='quantitative' />
+      <column caption='Gold Per Min' datatype='real' name='[goldPerMin]' role='measure' type='quantitative' />
+      <column caption='Heralds Taken' datatype='integer' name='[heraldsTaken]' role='measure' type='quantitative' />
+      <column caption='Kills' datatype='integer' name='[kills]' role='measure' type='quantitative' />
+      <column caption='Losing Team Assits' datatype='integer' name='[losingTeamAssits]' role='measure' type='quantitative' />
+      <column caption='Losing Team Avg Level' datatype='real' name='[losingTeamAvgLevel]' role='measure' type='quantitative' />
+      <column caption='Losing Team CS Per Min' datatype='real' name='[losingTeamCSPerMin]' role='measure' type='quantitative' />
+      <column caption='Losing Team Deaths' datatype='integer' name='[losingTeamDeaths]' role='measure' type='quantitative' />
+      <column caption='Losing Team Dragons' datatype='integer' name='[losingTeamDragons]' role='measure' type='quantitative' />
+      <column caption='Losing Team Elite Monsters' datatype='integer' name='[losingTeamEliteMonsters]' role='measure' type='quantitative' />
+      <column caption='Losing Team Experience Diff' datatype='integer' name='[losingTeamExperienceDiff]' role='measure' type='quantitative' />
+      <column caption='Losing Team First Blood' datatype='integer' name='[losingTeamFirstBlood]' role='measure' type='quantitative' />
+      <column caption='Losing Team Gold Diff' datatype='integer' name='[losingTeamGoldDiff]' role='measure' type='quantitative' />
+      <column caption='Losing Team Gold Per Min' datatype='real' name='[losingTeamGoldPerMin]' role='measure' type='quantitative' />
+      <column caption='Losing Team Heralds' datatype='integer' name='[losingTeamHeralds]' role='measure' type='quantitative' />
+      <column caption='Losing Team Total Experience' datatype='integer' name='[losingTeamTotalExperience]' role='measure' type='quantitative' />
+      <column caption='Losing Team Total Gold' datatype='integer' name='[losingTeamTotalGold]' role='measure' type='quantitative' />
+      <column caption='Losing Team Total Jungle Minions Killed' datatype='integer' name='[losingTeamTotalJungleMinionsKilled]' role='measure' type='quantitative' />
+      <column caption='Losing Team Total Minions Killed' datatype='integer' name='[losingTeamTotalMinionsKilled]' role='measure' type='quantitative' />
+      <column caption='Losing Team Towers Destroyed' datatype='integer' name='[losingTeamTowersDestroyed]' role='measure' type='quantitative' />
+      <column caption='Losing Team Wards Destroyed' datatype='integer' name='[losingTeamWardsDestroyed]' role='measure' type='quantitative' />
+      <column caption='Losing Team Wards Placed' datatype='integer' name='[losingTeamWardsPlaced]' role='measure' type='quantitative' />
+      <column caption='Losingteam Kills' datatype='integer' name='[losingteamKills]' role='measure' type='quantitative' />
+      <column caption='Team Won' datatype='string' name='[teamWon]' role='dimension' type='nominal' />
+      <column caption='Total Experience' datatype='integer' name='[totalExperience]' role='measure' type='quantitative' />
+      <column caption='Total Gold' datatype='integer' name='[totalGold]' role='measure' type='quantitative' />
+      <column caption='Total Jungle Minions Killed' datatype='integer' name='[totalJungleMinionsKilled]' role='measure' type='quantitative' />
+      <column caption='Total Minions Killed' datatype='integer' name='[totalMinionsKilled]' role='measure' type='quantitative' />
+      <column aggregation='Sum' datatype='integer' name='[totalWards]' role='dimension' type='ordinal' />
+      <column caption='Towers Lost' datatype='integer' name='[towersLost]' role='measure' type='quantitative' />
+      <column caption='Wards Destroyed' datatype='integer' name='[wardsDestroyed]' role='measure' type='quantitative' />
+      <column caption='Wards Placed' datatype='integer' name='[wardsPlaced]' role='measure' type='quantitative' />
+      <column datatype='boolean' name='[winingTeamDragon]' role='dimension' type='nominal' />
+      <column datatype='boolean' name='[winingTeamFirstBlood]' role='dimension' type='nominal' />
+      <column-instance column='[kills]' derivation='Attribute' name='[attr:kills:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[losingTeamWardsPlaced]' derivation='Attribute' name='[attr:losingTeamWardsPlaced:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[assists]' derivation='Avg' name='[avg:assists:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[deaths]' derivation='Avg' name='[avg:deaths:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[goldDiff]' derivation='Avg' name='[avg:goldDiff:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[kills]' derivation='Avg' name='[avg:kills:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[losingTeamAssits]' derivation='Avg' name='[avg:losingTeamAssits:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[losingTeamDeaths]' derivation='Avg' name='[avg:losingTeamDeaths:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[losingTeamGoldDiff]' derivation='Avg' name='[avg:losingTeamGoldDiff:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[losingTeamWardsPlaced]' derivation='Avg' name='[avg:losingTeamWardsPlaced:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[losingteamKills]' derivation='Avg' name='[avg:losingteamKills:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[wardsDestroyed]' derivation='Avg' name='[avg:wardsDestroyed:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[wardsPlaced]' derivation='Avg' name='[avg:wardsPlaced:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[goldDiff]' derivation='Count' name='[cnt:goldDiff:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[losingTeamWardsPlaced]' derivation='Count' name='[cnt:losingTeamWardsPlaced:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[totalWards]' derivation='Count' name='[cnt:totalWards:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[wardsPlaced]' derivation='Count' name='[cnt:wardsPlaced:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[kills]' derivation='CountD' name='[ctd:kills:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[losingTeamWardsPlaced]' derivation='CountD' name='[ctd:losingTeamWardsPlaced:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[wardsPlaced]' derivation='CountD' name='[ctd:wardsPlaced:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[wardsPlaced]' derivation='Sum' name='[diff:sum:wardsPlaced:qk:2]' pivot='key' type='quantitative'>
+        <table-calc diff-options='Relative' ordering-type='CellInPane' type='Difference'>
+          <address>
+            <value>-1</value>
+          </address>
+        </table-calc>
+      </column-instance>
+      <column-instance column='[wardsPlaced]' derivation='Sum' name='[diff:sum:wardsPlaced:qk]' pivot='key' type='quantitative'>
+        <table-calc diff-options='Relative' ordering-type='Rows' type='Difference'>
+          <address>
+            <value>-1</value>
+          </address>
+        </table-calc>
+      </column-instance>
+      <column-instance column='[goldDiff]' derivation='Median' name='[med:goldDiff:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[losingTeamWardsPlaced]' derivation='Median' name='[med:losingTeamWardsPlaced:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[wardsPlaced]' derivation='Median' name='[med:wardsPlaced:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Forecast Indicator]' derivation='None' forecast-column-base='[Forecast Indicator]' forecast-column-type='forecast-indicator' name='[none:Forecast Indicator:nk]' pivot='key' type='nominal' />
+      <column-instance column='[goldDiff]' derivation='None' name='[none:goldDiff:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[losingTeamWardsPlaced]' derivation='None' name='[none:losingTeamWardsPlaced:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[totalWards]' derivation='None' name='[none:totalWards:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[winingTeamDragon]' derivation='None' name='[none:winingTeamDragon:nk]' pivot='key' type='nominal' />
+      <column-instance column='[winingTeamFirstBlood]' derivation='None' name='[none:winingTeamFirstBlood:nk]' pivot='key' type='nominal' />
+      <column-instance column='[losingTeamWardsPlaced]' derivation='Avg' name='[pcdf:avg:losingTeamWardsPlaced:qk]' pivot='key' type='quantitative'>
+        <table-calc diff-options='Relative' ordering-type='Rows' type='PctDiff'>
+          <address>
+            <value>-1</value>
+          </address>
+        </table-calc>
+      </column-instance>
+      <column-instance column='[wardsPlaced]' derivation='Avg' name='[pcdf:avg:wardsPlaced:qk]' pivot='key' type='quantitative'>
+        <table-calc diff-options='Relative' ordering-type='Rows' type='PctDiff'>
+          <address>
+            <value>-1</value>
+          </address>
+        </table-calc>
+      </column-instance>
+      <column-instance column='[losingTeamWardsPlaced]' derivation='Sum' name='[pcdf:sum:losingTeamWardsPlaced:qk]' pivot='key' type='quantitative'>
+        <table-calc diff-options='Relative' ordering-type='Rows' type='PctDiff'>
+          <address>
+            <value>-1</value>
+          </address>
+        </table-calc>
+      </column-instance>
+      <column-instance column='[wardsPlaced]' derivation='Sum' name='[pcdf:sum:wardsPlaced:qk:2]' pivot='key' type='quantitative'>
+        <table-calc diff-options='Relative' ordering-type='CellInPane' type='PctDiff'>
+          <address>
+            <value>-1</value>
+          </address>
+        </table-calc>
+      </column-instance>
+      <column-instance column='[wardsPlaced]' derivation='Sum' name='[pcdf:sum:wardsPlaced:qk]' pivot='key' type='quantitative'>
+        <table-calc diff-options='Relative' ordering-type='Rows' type='PctDiff'>
+          <address>
+            <value>-1</value>
+          </address>
+        </table-calc>
+      </column-instance>
+      <column-instance column='[losingTeamWardsPlaced]' derivation='Avg' name='[pcto:avg:losingTeamWardsPlaced:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Rows' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[wardsPlaced]' derivation='Avg' name='[pcto:avg:wardsPlaced:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Rows' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[losingTeamWardsPlaced]' derivation='Count' name='[pcto:cnt:losingTeamWardsPlaced:qk:2]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Columns' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[losingTeamWardsPlaced]' derivation='Count' name='[pcto:cnt:losingTeamWardsPlaced:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Rows' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[wardsPlaced]' derivation='Count' name='[pcto:cnt:wardsPlaced:qk:2]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Columns' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[wardsPlaced]' derivation='Count' name='[pcto:cnt:wardsPlaced:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Rows' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[losingTeamWardsPlaced]' derivation='CountD' name='[pcto:ctd:losingTeamWardsPlaced:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Columns' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[wardsPlaced]' derivation='CountD' name='[pcto:ctd:wardsPlaced:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Columns' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[losingTeamWardsPlaced]' derivation='Sum' name='[pcto:sum:losingTeamWardsPlaced:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Rows' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[wardsPlaced]' derivation='Sum' name='[pcto:sum:wardsPlaced:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Rows' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[goldDiff]' derivation='Sum' name='[sum:goldDiff:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[kills]' derivation='Sum' name='[sum:kills:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[losingTeamGoldDiff]' derivation='Sum' name='[sum:losingTeamGoldDiff:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[losingTeamWardsPlaced]' derivation='Sum' name='[sum:losingTeamWardsPlaced:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[losingteamKills]' derivation='Sum' name='[sum:losingteamKills:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[totalWards]' derivation='Sum' name='[sum:totalWards:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[wardsDestroyed]' derivation='Sum' name='[sum:wardsDestroyed:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[wardsPlaced]' derivation='Sum' name='[sum:wardsPlaced:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:winingTeamFirstBlood:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>true</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>false</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:winingTeamDragon:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>true</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>false</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[attr:losingTeamWardsPlaced:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[avg:goldDiff:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[avg:wardsPlaced:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[cnt:losingTeamWardsPlaced:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[ctd:losingTeamWardsPlaced:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[med:losingTeamWardsPlaced:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[none:goldDiff:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[none:losingTeamWardsPlaced:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[pcdf:avg:losingTeamWardsPlaced:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[pcdf:sum:losingTeamWardsPlaced:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[pcto:avg:losingTeamWardsPlaced:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[pcto:cnt:losingTeamWardsPlaced:qk:2]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[pcto:cnt:losingTeamWardsPlaced:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[pcto:ctd:losingTeamWardsPlaced:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[pcto:sum:losingTeamWardsPlaced:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[sum:losingTeamWardsPlaced:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[med:wardsPlaced:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[cnt:goldDiff:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[sum:goldDiff:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[med:goldDiff:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[avg:losingTeamWardsPlaced:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[cnt:totalWards:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[none:totalWards:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[sum:totalWards:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[attr:kills:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[avg:kills:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[ctd:kills:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[sum:kills:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[avg:losingTeamGoldDiff:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[avg:wardsDestroyed:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[cnt:wardsPlaced:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[ctd:wardsPlaced:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[diff:sum:wardsPlaced:qk:2]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[diff:sum:wardsPlaced:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[pcdf:avg:wardsPlaced:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[pcdf:sum:wardsPlaced:qk:2]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[pcdf:sum:wardsPlaced:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[pcto:avg:wardsPlaced:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[pcto:cnt:wardsPlaced:qk:2]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[pcto:cnt:wardsPlaced:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[pcto:ctd:wardsPlaced:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[pcto:sum:wardsPlaced:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[sum:losingTeamGoldDiff:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[sum:wardsDestroyed:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[sum:wardsPlaced:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[avg:losingteamKills:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[sum:losingteamKills:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <default-sorts>
+        <manual-sort column='[none:Forecast Indicator:nk]' direction='ASC'>
+          <dictionary>
+            <bucket>&quot;Actual&quot;</bucket>
+            <bucket>&quot;Estimate&quot;</bucket>
+          </dictionary>
+        </manual-sort>
+      </default-sorts>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='data_byNakheem.csv' id='data_byNakheem.csv_E32E207985DE47848775F761AF74136F'>
+            <properties context=''>
+              <relation connection='textscan.1tr6aoc1r7bxob1ap04b51hb1lng' name='data_byNakheem.csv' table='[data_byNakheem#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='integer' name='gameId' ordinal='1' />
+                  <column datatype='integer' name='blueWins' ordinal='2' />
+                  <column datatype='integer' name='wardsPlaced' ordinal='3' />
+                  <column datatype='integer' name='wardsDestroyed' ordinal='4' />
+                  <column datatype='integer' name='firstBlood' ordinal='5' />
+                  <column datatype='integer' name='kills' ordinal='6' />
+                  <column datatype='integer' name='deaths' ordinal='7' />
+                  <column datatype='integer' name='assists' ordinal='8' />
+                  <column datatype='integer' name='eliteMonsters' ordinal='9' />
+                  <column datatype='integer' name='dragonsTaken' ordinal='10' />
+                  <column datatype='integer' name='heraldsTaken' ordinal='11' />
+                  <column datatype='integer' name='towersLost' ordinal='12' />
+                  <column datatype='integer' name='totalGold' ordinal='13' />
+                  <column datatype='real' name='avgLevel' ordinal='14' />
+                  <column datatype='integer' name='totalExperience' ordinal='15' />
+                  <column datatype='integer' name='totalMinionsKilled' ordinal='16' />
+                  <column datatype='integer' name='totalJungleMinionsKilled' ordinal='17' />
+                  <column datatype='integer' name='goldDiff' ordinal='18' />
+                  <column datatype='integer' name='experienceDiff' ordinal='19' />
+                  <column datatype='real' name='csPerMin' ordinal='20' />
+                  <column datatype='real' name='goldPerMin' ordinal='21' />
+                  <column datatype='integer' name='losingTeamWardsPlaced' ordinal='22' />
+                  <column datatype='integer' name='losingTeamWardsDestroyed' ordinal='23' />
+                  <column datatype='integer' name='losingTeamFirstBlood' ordinal='24' />
+                  <column datatype='integer' name='losingteamKills' ordinal='25' />
+                  <column datatype='integer' name='losingTeamDeaths' ordinal='26' />
+                  <column datatype='integer' name='losingTeamAssits' ordinal='27' />
+                  <column datatype='integer' name='losingTeamEliteMonsters' ordinal='28' />
+                  <column datatype='integer' name='losingTeamDragons' ordinal='29' />
+                  <column datatype='integer' name='losingTeamHeralds' ordinal='30' />
+                  <column datatype='integer' name='losingTeamTowersDestroyed' ordinal='31' />
+                  <column datatype='integer' name='losingTeamTotalGold' ordinal='32' />
+                  <column datatype='real' name='losingTeamAvgLevel' ordinal='33' />
+                  <column datatype='integer' name='losingTeamTotalExperience' ordinal='34' />
+                  <column datatype='integer' name='losingTeamTotalMinionsKilled' ordinal='35' />
+                  <column datatype='integer' name='losingTeamTotalJungleMinionsKilled' ordinal='36' />
+                  <column datatype='integer' name='losingTeamGoldDiff' ordinal='37' />
+                  <column datatype='integer' name='losingTeamExperienceDiff' ordinal='38' />
+                  <column datatype='real' name='losingTeamCSPerMin' ordinal='39' />
+                  <column datatype='real' name='losingTeamGoldPerMin' ordinal='40' />
+                  <column datatype='string' name='teamWon' ordinal='41' />
+                  <column datatype='integer' name='totalWards' ordinal='42' />
+                  <column datatype='boolean' name='winingTeamFirstBlood' ordinal='43' />
+                  <column datatype='boolean' name='winingTeamDragon' ordinal='44' />
+                  <column datatype='boolean' name='aheadByGold' ordinal='45' />
+                  <column datatype='integer' name='killDifferenceW' ordinal='46' />
+                  <column datatype='integer' name='KillDifferencL' ordinal='47' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Kills compared to Gold lead&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='data_byNakheem' name='federated.1hc4ekx0bv111n1aplt4q1pm6xls' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1hc4ekx0bv111n1aplt4q1pm6xls'>
+            <column datatype='integer' name='[F1]' role='measure' type='quantitative' />
+            <column caption='Assists' datatype='integer' name='[assists]' role='measure' type='quantitative' />
+            <column caption='Avg Level' datatype='real' name='[avgLevel]' role='measure' type='quantitative' />
+            <column caption='Blue Wins' datatype='integer' name='[blueWins]' role='measure' type='quantitative' />
+            <column caption='Cs Per Min' datatype='real' name='[csPerMin]' role='measure' type='quantitative' />
+            <column caption='Deaths' datatype='integer' name='[deaths]' role='measure' type='quantitative' />
+            <column caption='Dragons Taken' datatype='integer' name='[dragonsTaken]' role='measure' type='quantitative' />
+            <column caption='Elite Monsters' datatype='integer' name='[eliteMonsters]' role='measure' type='quantitative' />
+            <column caption='Experience Diff' datatype='integer' name='[experienceDiff]' role='measure' type='quantitative' />
+            <column caption='First Blood' datatype='integer' name='[firstBlood]' role='measure' type='quantitative' />
+            <column caption='Gold Diff' datatype='integer' name='[goldDiff]' role='measure' type='quantitative' />
+            <column caption='Gold Per Min' datatype='real' name='[goldPerMin]' role='measure' type='quantitative' />
+            <column caption='Heralds Taken' datatype='integer' name='[heraldsTaken]' role='measure' type='quantitative' />
+            <column caption='Kills' datatype='integer' name='[kills]' role='measure' type='quantitative' />
+            <column caption='Losing Team Assits' datatype='integer' name='[losingTeamAssits]' role='measure' type='quantitative' />
+            <column caption='Losing Team Avg Level' datatype='real' name='[losingTeamAvgLevel]' role='measure' type='quantitative' />
+            <column caption='Losing Team CS Per Min' datatype='real' name='[losingTeamCSPerMin]' role='measure' type='quantitative' />
+            <column caption='Losing Team Deaths' datatype='integer' name='[losingTeamDeaths]' role='measure' type='quantitative' />
+            <column caption='Losing Team Dragons' datatype='integer' name='[losingTeamDragons]' role='measure' type='quantitative' />
+            <column caption='Losing Team Elite Monsters' datatype='integer' name='[losingTeamEliteMonsters]' role='measure' type='quantitative' />
+            <column caption='Losingteam Kills' datatype='integer' name='[losingteamKills]' role='measure' type='quantitative' />
+            <column-instance column='[goldDiff]' derivation='Median' name='[med:goldDiff:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[kills]' derivation='None' name='[none:kills:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[losingteamKills]' derivation='None' name='[none:losingteamKills:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F1]' derivation='Sum' name='[sum:F1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[assists]' derivation='Sum' name='[sum:assists:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[avgLevel]' derivation='Sum' name='[sum:avgLevel:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[blueWins]' derivation='Sum' name='[sum:blueWins:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[csPerMin]' derivation='Sum' name='[sum:csPerMin:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[deaths]' derivation='Sum' name='[sum:deaths:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[dragonsTaken]' derivation='Sum' name='[sum:dragonsTaken:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[eliteMonsters]' derivation='Sum' name='[sum:eliteMonsters:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[experienceDiff]' derivation='Sum' name='[sum:experienceDiff:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[firstBlood]' derivation='Sum' name='[sum:firstBlood:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[goldDiff]' derivation='Sum' name='[sum:goldDiff:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[goldPerMin]' derivation='Sum' name='[sum:goldPerMin:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[heraldsTaken]' derivation='Sum' name='[sum:heraldsTaken:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[kills]' derivation='Sum' name='[sum:kills:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[losingTeamAssits]' derivation='Sum' name='[sum:losingTeamAssits:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[losingTeamAvgLevel]' derivation='Sum' name='[sum:losingTeamAvgLevel:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[losingTeamCSPerMin]' derivation='Sum' name='[sum:losingTeamCSPerMin:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[losingTeamDeaths]' derivation='Sum' name='[sum:losingTeamDeaths:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[losingTeamDragons]' derivation='Sum' name='[sum:losingTeamDragons:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[losingTeamEliteMonsters]' derivation='Sum' name='[sum:losingTeamEliteMonsters:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[sum:assists:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[sum:avgLevel:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[sum:blueWins:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[sum:csPerMin:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[sum:deaths:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[sum:dragonsTaken:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[sum:eliteMonsters:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[sum:experienceDiff:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[sum:F1:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[sum:firstBlood:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[sum:goldDiff:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[sum:goldPerMin:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[sum:heraldsTaken:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[sum:kills:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[sum:losingTeamAssits:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[sum:losingTeamAvgLevel:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[sum:losingTeamCSPerMin:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[sum:losingTeamDeaths:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[sum:losingTeamDragons:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[sum:losingTeamEliteMonsters:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[med:goldDiff:qk]' scope='rows' value=' Gold Diff' />
+            <format attr='title' class='0' field='[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[none:losingteamKills:qk]' scope='cols' value='Losing Team Kills' />
+            <format attr='title' class='0' field='[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[none:kills:qk]' scope='cols' value='Winning Team Kills' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <lod column='[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[none:kills:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <lod column='[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#4e79a7' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[none:losingteamKills:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <lod column='[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#ff0000' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[med:goldDiff:qk]</rows>
+        <cols>([federated.1hc4ekx0bv111n1aplt4q1pm6xls].[none:kills:qk] + [federated.1hc4ekx0bv111n1aplt4q1pm6xls].[none:losingteamKills:qk])</cols>
+      </table>
+      <simple-id uuid='{77D4F7E0-2829-41B6-AB8F-0650EB2C0C0C}' />
+    </worksheet>
+    <worksheet name='Sheet 10'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Wining Team Gold Per Kill&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='data_byNakheem' name='federated.1hc4ekx0bv111n1aplt4q1pm6xls' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1hc4ekx0bv111n1aplt4q1pm6xls'>
+            <column-instance column='[goldDiff]' derivation='Avg' name='[avg:goldDiff:qk]' pivot='key' type='quantitative' />
+            <column caption='Gold Diff' datatype='integer' name='[goldDiff]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[killDifferenceW]' role='measure' type='quantitative' />
+            <column-instance column='[killDifferenceW]' derivation='None' name='[none:killDifferenceW:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[avg:goldDiff:qk]' scope='rows' value='Avg. Wining Team Gold Diff' />
+            <format attr='title' class='0' field='[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[none:killDifferenceW:qk]' scope='cols' value='Wininging Team Kill DIfference' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[:Measure Names]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[avg:goldDiff:qk]</rows>
+        <cols>[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[none:killDifferenceW:qk]</cols>
+        <mark-labels>
+          <mark-label id='0' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[none:killDifferenceW:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[avg:goldDiff:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[avg:goldDiff:qk]</field>
+                  <field>[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[none:killDifferenceW:qk]</field>
+                  <field>[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[:Measure Names]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>254.99791231732777</value>
+                <value>0</value>
+                <value>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[avg:goldDiff:qk]&quot;</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{1B28B82E-BECD-4228-A6B7-46016CDCB0A8}' />
+    </worksheet>
+    <worksheet name='Sheet 11'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Losing Team Gold Difference&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='data_byNakheem' name='federated.1hc4ekx0bv111n1aplt4q1pm6xls' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1hc4ekx0bv111n1aplt4q1pm6xls'>
+            <column datatype='integer' name='[KillDifferencL]' role='measure' type='quantitative' />
+            <column-instance column='[losingTeamGoldDiff]' derivation='Avg' name='[avg:losingTeamGoldDiff:qk]' pivot='key' type='quantitative' />
+            <column caption='Losing Team Gold Diff' datatype='integer' name='[losingTeamGoldDiff]' role='measure' type='quantitative' />
+            <column-instance column='[KillDifferencL]' derivation='None' name='[none:KillDifferencL:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[none:KillDifferencL:qk]' scope='cols' value='Losing Team Kill Difference' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#ff0000' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[avg:losingTeamGoldDiff:qk]</rows>
+        <cols>[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[none:KillDifferencL:qk]</cols>
+      </table>
+      <simple-id uuid='{357899A6-F551-4795-8D0A-1E92DA5077CB}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Average wards placed</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='data_byNakheem' name='federated.1hc4ekx0bv111n1aplt4q1pm6xls' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1hc4ekx0bv111n1aplt4q1pm6xls'>
+            <column-instance column='[losingTeamWardsPlaced]' derivation='Avg' name='[avg:losingTeamWardsPlaced:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[wardsPlaced]' derivation='Avg' name='[avg:wardsPlaced:qk]' pivot='key' type='quantitative' />
+            <column caption='Losing Team Wards Placed' datatype='integer' name='[losingTeamWardsPlaced]' role='measure' type='quantitative' />
+            <column caption='Wards Placed' datatype='integer' name='[wardsPlaced]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[avg:losingTeamWardsPlaced:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[avg:wardsPlaced:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[avg:losingTeamWardsPlaced:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[avg:wardsPlaced:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[:Measure Names]' />
+              <text column='[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{984B4B7A-33E3-4D74-9612-6BB5C738ECCC}' />
+    </worksheet>
+    <worksheet name='Sheet 7'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Kills, Deaths and Assits&#10; </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='data_byNakheem' name='federated.1hc4ekx0bv111n1aplt4q1pm6xls' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1hc4ekx0bv111n1aplt4q1pm6xls'>
+            <column caption='Assists' datatype='integer' name='[assists]' role='measure' type='quantitative' />
+            <column-instance column='[assists]' derivation='Avg' name='[avg:assists:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[deaths]' derivation='Avg' name='[avg:deaths:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[kills]' derivation='Avg' name='[avg:kills:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[losingTeamAssits]' derivation='Avg' name='[avg:losingTeamAssits:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[losingTeamDeaths]' derivation='Avg' name='[avg:losingTeamDeaths:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[losingteamKills]' derivation='Avg' name='[avg:losingteamKills:qk]' pivot='key' type='quantitative' />
+            <column caption='Deaths' datatype='integer' name='[deaths]' role='measure' type='quantitative' />
+            <column caption='Kills' datatype='integer' name='[kills]' role='measure' type='quantitative' />
+            <column caption='Losing Team Assits' datatype='integer' name='[losingTeamAssits]' role='measure' type='quantitative' />
+            <column caption='Losing Team Deaths' datatype='integer' name='[losingTeamDeaths]' role='measure' type='quantitative' />
+            <column caption='Losingteam Kills' datatype='integer' name='[losingteamKills]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[avg:kills:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[avg:losingteamKills:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[avg:assists:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[avg:losingTeamAssits:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[avg:deaths:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[avg:losingTeamDeaths:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[avg:kills:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[avg:losingteamKills:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[avg:assists:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[avg:losingTeamAssits:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[avg:deaths:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[avg:losingTeamDeaths:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[:Measure Names]' value='102' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#8cd17d' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[Multiple Values]</rows>
+        <cols>[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{A415AE92-93D1-469C-9714-13C04BDFCE9C}' />
+    </worksheet>
+    <worksheet name='Sheet 8'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Dragons Taken&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='data_byNakheem' name='federated.1hc4ekx0bv111n1aplt4q1pm6xls' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1hc4ekx0bv111n1aplt4q1pm6xls'>
+            <column-instance column='[dragonsTaken]' derivation='Count' name='[cnt:dragonsTaken:qk]' pivot='key' type='quantitative' />
+            <column caption='Dragons Taken' datatype='integer' name='[dragonsTaken]' role='measure' type='quantitative' />
+            <column caption='Losing Team Dragons' datatype='integer' name='[losingTeamDragons]' role='measure' type='quantitative' />
+            <column-instance column='[winingTeamDragon]' derivation='None' name='[none:winingTeamDragon:nk]' pivot='key' type='nominal' />
+            <column-instance column='[losingTeamDragons]' derivation='Count' name='[pcto:cnt:losingTeamDragons:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column datatype='boolean' name='[winingTeamDragon]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[none:winingTeamDragon:nk]' />
+              <text column='[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[cnt:dragonsTaken:qk]' />
+              <text column='[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[pcto:cnt:losingTeamDragons:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{DD30D855-4CEF-4B3E-9870-A14612CFF518}' />
+    </worksheet>
+    <worksheet name='Sheet 9'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>First Kill of the Game&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='data_byNakheem' name='federated.1hc4ekx0bv111n1aplt4q1pm6xls' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1hc4ekx0bv111n1aplt4q1pm6xls'>
+            <column caption='First Blood' datatype='integer' name='[firstBlood]' role='measure' type='quantitative' />
+            <column caption='Losing Team First Blood' datatype='integer' name='[losingTeamFirstBlood]' role='measure' type='quantitative' />
+            <column-instance column='[winingTeamFirstBlood]' derivation='None' name='[none:winingTeamFirstBlood:nk]' pivot='key' type='nominal' />
+            <column-instance column='[losingTeamFirstBlood]' derivation='Count' name='[pcdf:cnt:losingTeamFirstBlood:qk]' pivot='key' type='quantitative'>
+              <table-calc diff-options='Relative' ordering-type='Rows' type='PctDiff'>
+                <address>
+                  <value>-1</value>
+                </address>
+              </table-calc>
+            </column-instance>
+            <column-instance column='[firstBlood]' derivation='Count' name='[pcto:cnt:firstBlood:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column datatype='boolean' name='[winingTeamFirstBlood]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[none:winingTeamFirstBlood:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:winingTeamFirstBlood:nk]' member='false' />
+              <groupfilter function='member' level='[none:winingTeamFirstBlood:nk]' member='true' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[none:winingTeamFirstBlood:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[none:winingTeamFirstBlood:nk]' />
+              <wedge-size column='[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[pcto:cnt:firstBlood:qk]' />
+              <size column='[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[pcdf:cnt:losingTeamFirstBlood:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{C41FBF3B-33FA-447D-B616-DB8B50A51D36}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='4' w='100000' x='0' y='0'>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98728' id='8' param='horz' w='99292' x='354' y='636'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='98728' id='6' w='94562' x='354' y='636'>
+              <zone h='49365' id='5' name='Sheet 3' w='23816' x='29573' y='49999'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49365' id='11' name='Sheet 9' w='41527' x='53389' y='49999'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49365' id='14' name='Sheet 8' w='29219' x='354' y='49999'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49363' id='16' name='Sheet 7' w='45109' x='49807' y='636'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49363' id='19' name='Sheet 10' w='24725' x='354' y='636'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49363' id='20' name='Sheet 11' w='24728' x='25079' y='636'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' fixed-size='107' h='98728' id='7' is-fixed='true' param='vert' w='4730' x='94916' y='636'>
+              <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='5250' id='9' name='Sheet 3' pane-specification-id='0' param='[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[:Measure Names]' w='4730' x='94916' y='636'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='5250' id='12' name='Sheet 9' pane-specification-id='0' param='[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[none:winingTeamFirstBlood:nk]' w='4730' x='94916' y='5886'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone _.fcp.SetMembershipControl.false...type='size' _.fcp.SetMembershipControl.true...type-v2='size' h='2148' id='13' name='Sheet 9' pane-specification-id='0' param='[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[pcdf:cnt:losingTeamFirstBlood:qk]' w='4730' x='94916' y='11136'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='5250' id='15' name='Sheet 8' pane-specification-id='0' param='[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[none:winingTeamDragon:nk]' w='4730' x='94916' y='13284'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='2000' minheight='2000' sizing-mode='vscroll' />
+          <zones>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='24' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98728' id='23' param='vert' w='99292' x='354' y='636'>
+                <zone fixed-size='280' h='49363' id='19' is-fixed='true' name='Sheet 10' w='24725' x='354' y='636'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49363' id='20' is-fixed='true' name='Sheet 11' w='24728' x='25079' y='636'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49363' id='16' is-fixed='true' name='Sheet 7' w='45109' x='49807' y='636'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49365' id='14' is-fixed='true' name='Sheet 8' w='29219' x='354' y='49999'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='5250' id='15' name='Sheet 8' pane-specification-id='0' param='[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[none:winingTeamDragon:nk]' w='4730' x='94916' y='13284'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49365' id='5' is-fixed='true' name='Sheet 3' w='23816' x='29573' y='49999'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='5250' id='9' name='Sheet 3' pane-specification-id='0' param='[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[:Measure Names]' w='4730' x='94916' y='636'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49365' id='11' is-fixed='true' name='Sheet 9' w='41527' x='53389' y='49999'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='5250' id='12' name='Sheet 9' pane-specification-id='0' param='[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[none:winingTeamFirstBlood:nk]' w='4730' x='94916' y='5886'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='size' _.fcp.SetMembershipControl.true...type-v2='size' h='2148' id='13' name='Sheet 9' pane-specification-id='0' param='[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[pcdf:cnt:losingTeamFirstBlood:qk]' w='4730' x='94916' y='11136'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{9809D9DC-405F-418D-9DFB-71F6FD37E9FB}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-height' />
+      </viewpoint>
+      <simple-id uuid='{7F93D713-1EB4-4C59-88EB-67DF2D5E1A04}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sheet 10'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 11'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 3'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[:Measure Names]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Sheet 7'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 8'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 9'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[none:winingTeamFirstBlood:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+      </viewpoints>
+      <active id='11' />
+      <simple-id uuid='{A08137C1-9F8A-4819-AD70-85908599CF43}' />
+    </window>
+    <window class='worksheet' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[:Measure Names]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{4D57C9A2-73F6-4E1F-A17D-E5CE8B17B649}' />
+    </window>
+    <window class='worksheet' name='Sheet 7'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{0A46E595-0851-42B9-A052-7E5A83E3D5C7}' />
+    </window>
+    <window class='worksheet' name='Sheet 8'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[none:winingTeamDragon:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight field='[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[none:winingTeamDragon:nk]'>
+          <bucket-selection />
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{87E9A07A-7946-4E22-8C1E-623FDDF20E00}' />
+    </window>
+    <window class='worksheet' name='Sheet 9'>
+      <cards>
+        <edge name='left'>
+          <strip size='300'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[none:winingTeamFirstBlood:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[pcdf:cnt:losingTeamFirstBlood:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[none:winingTeamFirstBlood:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{5935C9CD-1309-4C12-A7B3-77C68520458D}' />
+    </window>
+    <window class='worksheet' name='Sheet 10'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1hc4ekx0bv111n1aplt4q1pm6xls].[:Measure Names]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{F53CF846-601B-4487-9415-A4237E08B207}' />
+    </window>
+    <window class='worksheet' name='Sheet 11'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B2A70CF1-AB1B-4018-84CF-354E932605B3}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 10' width='192'>
+      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
+      iAAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 11' width='192'>
+      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
+      2wQA/B8A42SfvAjnZQAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 3' width='192'>
+      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
+      TkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 7' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 8' width='192'>
+      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
+      uGk3chbDAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 9' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
